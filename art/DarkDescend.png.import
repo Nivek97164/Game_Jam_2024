@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmiwno73uh7wn"
-path="res://.godot/imported/background.png-694afb2807fe739c9f0954541e14cf0b.ctex"
+uid="uid://dqh51svbqtmtc"
+path="res://.godot/imported/DarkDescend.png-7483df1d9fbbbe057d2cef425e9b7f42.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/background.png"
-dest_files=["res://.godot/imported/background.png-694afb2807fe739c9f0954541e14cf0b.ctex"]
+source_file="res://art/DarkDescend.png"
+dest_files=["res://.godot/imported/DarkDescend.png-7483df1d9fbbbe057d2cef425e9b7f42.ctex"]
 
 [params]
 
