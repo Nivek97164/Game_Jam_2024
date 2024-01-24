@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cxrdqpltr6gjf"
+path="res://.godot/imported/Main Theme.mp3-2c571153623835bfa5108b9c53e1a9cb.mp3str"
+
+[deps]
+
+source_file="res://Musique/Main Theme.mp3"
+dest_files=["res://.godot/imported/Main Theme.mp3-2c571153623835bfa5108b9c53e1a9cb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
