@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scene/MenuHistoireEtJouabilité.gd" id="1_jnd5g"]
 [ext_resource type="AudioStream" uid="uid://cxrdqpltr6gjf" path="res://Musique/Main Theme.mp3" id="1_nxy77"]
-[ext_resource type="Texture2D" uid="uid://ok27lahnrf8k" path="res://art/background 1.png" id="2_emwub"]
+[ext_resource type="Texture2D" uid="uid://ok27lahnrf8k" path="res://art/background 1 1.png" id="2_emwub"]
 [ext_resource type="FontFile" uid="uid://brbwwt48i65ud" path="res://Tipo/Varino - Normal.otf" id="4_4ok3g"]
 [ext_resource type="Texture2D" uid="uid://duowd5lx6my8f" path="res://art/Arrow.png" id="5_8civ3"]
 [ext_resource type="Texture2D" uid="uid://clobd2ccqskl5" path="res://art/Space.png" id="6_tshq8"]

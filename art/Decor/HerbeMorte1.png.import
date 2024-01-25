@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ok27lahnrf8k"
-path="res://.godot/imported/background 1 1.png-239e89cf73fad1035386d5bfc489e864.ctex"
+uid="uid://ft1v7uytidwr"
+path="res://.godot/imported/HerbeMorte1.png-9de1f978a5405262ad5715b2fb5fd6b8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/background 1 1.png"
-dest_files=["res://.godot/imported/background 1 1.png-239e89cf73fad1035386d5bfc489e864.ctex"]
+source_file="res://art/Decor/HerbeMorte1.png"
+dest_files=["res://.godot/imported/HerbeMorte1.png-9de1f978a5405262ad5715b2fb5fd6b8.ctex"]
 
 [params]
 

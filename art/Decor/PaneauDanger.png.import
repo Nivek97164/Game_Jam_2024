@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ok27lahnrf8k"
-path="res://.godot/imported/background 1 1.png-239e89cf73fad1035386d5bfc489e864.ctex"
+uid="uid://cq6v7da4r5nhj"
+path="res://.godot/imported/PaneauDanger.png-81ddfca2ba75e6e07aba9e632112557b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/background 1 1.png"
-dest_files=["res://.godot/imported/background 1 1.png-239e89cf73fad1035386d5bfc489e864.ctex"]
+source_file="res://art/Decor/PaneauDanger.png"
+dest_files=["res://.godot/imported/PaneauDanger.png-81ddfca2ba75e6e07aba9e632112557b.ctex"]
 
 [params]
 

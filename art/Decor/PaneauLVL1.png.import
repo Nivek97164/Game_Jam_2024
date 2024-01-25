@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ok27lahnrf8k"
-path="res://.godot/imported/background 1 1.png-239e89cf73fad1035386d5bfc489e864.ctex"
+uid="uid://1exughdysqvx"
+path="res://.godot/imported/PaneauLVL1.png-ad41dd4cd6e030921468d7f3d2c6e204.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/background 1 1.png"
-dest_files=["res://.godot/imported/background 1 1.png-239e89cf73fad1035386d5bfc489e864.ctex"]
+source_file="res://art/Decor/PaneauLVL1.png"
+dest_files=["res://.godot/imported/PaneauLVL1.png-ad41dd4cd6e030921468d7f3d2c6e204.ctex"]
 
 [params]
 

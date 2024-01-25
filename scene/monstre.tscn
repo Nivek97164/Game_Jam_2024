@@ -1,0 +1,56 @@
+[gd_scene load_steps=7 format=3 uid="uid://l84clx7fj8qk"]
+
+[ext_resource type="Script" path="res://scene/Monstre.gd" id="1_buod1"]
+[ext_resource type="Texture2D" uid="uid://biyoqf7704ayo" path="res://art/Monstre2.png" id="2_w40qp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pfoat"]
+size = Vector2(12, 12)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jabiw"]
+radius = 17.0784
+height = 54.0327
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jnaxj"]
+radius = 8.05591
+height = 106.465
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_msg8l"]
+height = 74.0146
+
+[node name="Monstre1" type="CharacterBody2D"]
+position = Vector2(14, 6)
+collision_layer = 2
+collision_mask = 5
+script = ExtResource("1_buod1")
+metadata/_edit_group_ = true
+
+[node name="Monstre2" type="Sprite2D" parent="."]
+position = Vector2(1208.25, 2902.5)
+scale = Vector2(0.158911, 0.153465)
+texture = ExtResource("2_w40qp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(1173, 2882)
+shape = SubResource("RectangleShape2D_pfoat")
+
+[node name="GameOver" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GameOver"]
+position = Vector2(1173, 2883)
+rotation = 1.55705
+shape = SubResource("CapsuleShape2D_jabiw")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="GameOver"]
+position = Vector2(1216, 2928)
+rotation = 4.79653
+shape = SubResource("CapsuleShape2D_jnaxj")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="GameOver"]
+position = Vector2(1199, 2910)
+rotation = 1.56214
+shape = SubResource("CapsuleShape2D_msg8l")
+
+[connection signal="body_entered" from="GameOver" to="." method="_on_game_over_body_entered"]

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ok27lahnrf8k"
-path="res://.godot/imported/background 1 1.png-239e89cf73fad1035386d5bfc489e864.ctex"
+uid="uid://bl86cxc53bwc0"
+path="res://.godot/imported/ColoneVertebralle.png-bbdc32c64fd9349cd43b05383b3dbb6c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/background 1 1.png"
-dest_files=["res://.godot/imported/background 1 1.png-239e89cf73fad1035386d5bfc489e864.ctex"]
+source_file="res://art/Decor/ColoneVertebralle.png"
+dest_files=["res://.godot/imported/ColoneVertebralle.png-bbdc32c64fd9349cd43b05383b3dbb6c.ctex"]
 
 [params]
 

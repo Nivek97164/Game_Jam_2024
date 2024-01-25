@@ -1,0 +1,49 @@
+[gd_scene load_steps=7 format=3 uid="uid://b5aud3lhokax"]
+
+[ext_resource type="Script" path="res://scene/monstre2.gd" id="1_gv8a6"]
+[ext_resource type="Texture2D" uid="uid://dwqov456phuec" path="res://art/Monstre1.png" id="1_xiunv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3v13x"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_87y8w"]
+radius = 63.0
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_ycnpv"]
+a = Vector2(-84.5, 11.5)
+b = Vector2(-58.5, -12.5)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_tbm7e"]
+a = Vector2(-19, -18)
+b = Vector2(1, 8)
+
+[node name="Monstre2" type="CharacterBody2D"]
+position = Vector2(-4921, -2235)
+script = ExtResource("1_gv8a6")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1618, 1372)
+scale = Vector2(0.233168, 0.204951)
+texture = ExtResource("1_xiunv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(1685, 1259)
+shape = SubResource("RectangleShape2D_3v13x")
+
+[node name="GameOver2" type="Area2D" parent="."]
+position = Vector2(1618, 1337)
+
+[node name="CollisionShape2D1" type="CollisionShape2D" parent="GameOver2"]
+position = Vector2(2, 42)
+shape = SubResource("CircleShape2D_87y8w")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="GameOver2"]
+position = Vector2(0.5, 73.5)
+shape = SubResource("SegmentShape2D_ycnpv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GameOver2"]
+position = Vector2(82, 76)
+shape = SubResource("SegmentShape2D_tbm7e")
+
+[connection signal="body_entered" from="GameOver2" to="." method="_on_game_over_2_body_entered"]

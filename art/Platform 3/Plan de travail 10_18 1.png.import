@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ok27lahnrf8k"
-path="res://.godot/imported/background 1 1.png-239e89cf73fad1035386d5bfc489e864.ctex"
+uid="uid://cocjqdeiqg8m2"
+path="res://.godot/imported/Plan de travail 10_18 1.png-02b8c2f955378dbec4d69ef39c1e8f65.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/background 1 1.png"
-dest_files=["res://.godot/imported/background 1 1.png-239e89cf73fad1035386d5bfc489e864.ctex"]
+source_file="res://art/Platform 3/Plan de travail 10_18 1.png"
+dest_files=["res://.godot/imported/Plan de travail 10_18 1.png-02b8c2f955378dbec4d69ef39c1e8f65.ctex"]
 
 [params]
 

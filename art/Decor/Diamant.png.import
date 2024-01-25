@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ok27lahnrf8k"
-path="res://.godot/imported/background 1 1.png-239e89cf73fad1035386d5bfc489e864.ctex"
+uid="uid://dui1ge4f6bbbk"
+path="res://.godot/imported/Diamant.png-85b1676e994ade3124e88691c93ec947.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/background 1 1.png"
-dest_files=["res://.godot/imported/background 1 1.png-239e89cf73fad1035386d5bfc489e864.ctex"]
+source_file="res://art/Decor/Diamant.png"
+dest_files=["res://.godot/imported/Diamant.png-85b1676e994ade3124e88691c93ec947.ctex"]
 
 [params]
 

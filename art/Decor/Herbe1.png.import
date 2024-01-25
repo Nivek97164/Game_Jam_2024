@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ok27lahnrf8k"
-path="res://.godot/imported/background 1 1.png-239e89cf73fad1035386d5bfc489e864.ctex"
+uid="uid://bakp6aysh8nib"
+path="res://.godot/imported/Herbe1.png-9ea70e2f7f9cd30c1cc04854855aa5c3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/background 1 1.png"
-dest_files=["res://.godot/imported/background 1 1.png-239e89cf73fad1035386d5bfc489e864.ctex"]
+source_file="res://art/Decor/Herbe1.png"
+dest_files=["res://.godot/imported/Herbe1.png-9ea70e2f7f9cd30c1cc04854855aa5c3.ctex"]
 
 [params]
 

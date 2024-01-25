@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://b07pmibhnw4hu"]
 
 [ext_resource type="Script" path="res://Menu.gd" id="1_xhxew"]
-[ext_resource type="Texture2D" uid="uid://bgb1qncys27q7" path="res://art/background 1 1.png" id="2_cqxc6"]
+[ext_resource type="Texture2D" uid="uid://ok27lahnrf8k" path="res://art/background 1 1.png" id="2_cqxc6"]
 [ext_resource type="Texture2D" uid="uid://dqh51svbqtmtc" path="res://art/DarkDescend.png" id="3_doxy7"]
 [ext_resource type="AudioStream" uid="uid://cxrdqpltr6gjf" path="res://Musique/Main Theme.mp3" id="4_vpqt0"]
 [ext_resource type="FontFile" uid="uid://brbwwt48i65ud" path="res://Tipo/Varino - Normal.otf" id="5_x1dj5"]
@@ -29,9 +29,9 @@ autoplay = true
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 0
-offset_left = 830.0
+offset_left = 781.0
 offset_top = 693.0
-offset_right = 1159.0
+offset_right = 1163.0
 offset_bottom = 877.0
 metadata/_edit_group_ = true
 
@@ -48,7 +48,7 @@ layout_mode = 2
 theme_override_colors/font_color = Color(0.137255, 0.0470588, 0.192157, 1)
 theme_override_fonts/font = ExtResource("5_x1dj5")
 theme_override_font_sizes/font_size = 59
-text = "Quiter "
+text = "Quitter "
 flat = true
 
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
