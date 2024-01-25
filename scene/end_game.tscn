@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://b5qq8axkifr44"]
+
+[ext_resource type="Script" path="res://scene/End Game.gd" id="1_chx1w"]
+[ext_resource type="Texture2D" uid="uid://bbfy3hsx2vume" path="res://art/Decor/levier.png" id="2_6topq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m7n01"]
+size = Vector2(47.5625, 51.25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3xbr0"]
+size = Vector2(42.5297, 220.713)
+
+[node name="End Game" type="CharacterBody2D"]
+position = Vector2(0, -10)
+script = ExtResource("1_chx1w")
+
+[node name="Levier" type="Sprite2D" parent="."]
+position = Vector2(1036.75, 4002.5)
+scale = Vector2(0.493164, 0.431641)
+texture = ExtResource("2_6topq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(1001.22, 4080)
+shape = SubResource("RectangleShape2D_m7n01")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(1030.38, 4004.09)
+rotation = -0.385104
+shape = SubResource("RectangleShape2D_3xbr0")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
