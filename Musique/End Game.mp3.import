@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://flnc51hxy4yi"
+path="res://.godot/imported/End Game.mp3-29a5305cf22282183f42e74a3f87bf82.mp3str"
+
+[deps]
+
+source_file="res://Musique/End Game.mp3"
+dest_files=["res://.godot/imported/End Game.mp3-29a5305cf22282183f42e74a3f87bf82.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

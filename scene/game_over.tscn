@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://de4c0vx278vcl"]
 
 [ext_resource type="Script" path="res://GameOver.gd" id="1_eotij"]
-[ext_resource type="Texture2D" uid="uid://bgb1qncys27q7" path="res://art/background 1 1.png" id="2_oli6c"]
+[ext_resource type="Texture2D" uid="uid://ok27lahnrf8k" path="res://art/background 1 1.png" id="2_oli6c"]
 [ext_resource type="FontFile" uid="uid://brbwwt48i65ud" path="res://Tipo/Varino - Normal.otf" id="3_wp12r"]
 [ext_resource type="AudioStream" uid="uid://b561x8gsr3oc3" path="res://Musique/Game Over.mp3" id="4_w436k"]
 
@@ -15,7 +15,8 @@ grow_vertical = 2
 script = ExtResource("1_eotij")
 
 [node name="Background11" type="Sprite2D" parent="."]
-position = Vector2(964, 1600)
+position = Vector2(962.25, 1599.5)
+scale = Vector2(1.00182, 1.00031)
 texture = ExtResource("2_oli6c")
 
 [node name="Label" type="Label" parent="."]

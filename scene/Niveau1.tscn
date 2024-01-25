@@ -9314,9 +9314,8 @@ sources/4 = SubResource("TileSetAtlasSource_7iwf0")
 position = Vector2(6, 0)
 
 [node name="Background11" type="Sprite2D" parent="."]
-position = Vector2(1447.75, 1817.01)
-rotation = -0.00107403
-scale = Vector2(1.51094, 1.1382)
+position = Vector2(1451, 1818.5)
+scale = Vector2(1.51379, 1.13665)
 texture = ExtResource("1_p304s")
 
 [node name="Mur" type="Sprite2D" parent="."]

@@ -17,7 +17,8 @@ grow_vertical = 2
 script = ExtResource("1_jnd5g")
 
 [node name="Background1" type="Sprite2D" parent="."]
-position = Vector2(961, 1603)
+position = Vector2(961, 1602)
+scale = Vector2(1.00052, 1.00188)
 texture = ExtResource("2_emwub")
 
 [node name="MainTheme" type="AudioStreamPlayer" parent="."]
@@ -26,10 +27,10 @@ autoplay = true
 
 [node name="Right" type="Label" parent="."]
 layout_mode = 0
-offset_left = 1391.0
-offset_top = 575.0
-offset_right = 1534.0
-offset_bottom = 611.0
+offset_left = 1473.0
+offset_top = 557.0
+offset_right = 1616.0
+offset_bottom = 593.0
 theme_override_colors/font_color = Color(0.137255, 0.0470588, 0.192157, 1)
 theme_override_fonts/font = ExtResource("4_4ok3g")
 theme_override_font_sizes/font_size = 35
@@ -38,16 +39,16 @@ text = "Right
 metadata/_edit_group_ = true
 
 [node name="Arrow" type="Sprite2D" parent="Right"]
-position = Vector2(78.5625, -78)
-scale = Vector2(0.0551741, 0.0401149)
+position = Vector2(73, -78)
+scale = Vector2(0.041882, 0.0401149)
 texture = ExtResource("5_8civ3")
 
 [node name="Jump" type="Label" parent="."]
 layout_mode = 0
-offset_left = 1217.0
-offset_top = 386.0
-offset_right = 1360.0
-offset_bottom = 422.0
+offset_left = 1352.0
+offset_top = 396.0
+offset_right = 1495.0
+offset_bottom = 432.0
 theme_override_colors/font_color = Color(0.137255, 0.0470588, 0.192157, 1)
 theme_override_fonts/font = ExtResource("4_4ok3g")
 theme_override_font_sizes/font_size = 35
@@ -61,10 +62,10 @@ texture = ExtResource("6_tshq8")
 
 [node name="Left" type="Label" parent="."]
 layout_mode = 0
-offset_left = 1064.0
-offset_top = 574.0
-offset_right = 1184.0
-offset_bottom = 610.0
+offset_left = 1232.0
+offset_top = 556.0
+offset_right = 1352.0
+offset_bottom = 592.0
 theme_override_colors/font_color = Color(0.137255, 0.0470588, 0.192157, 1)
 theme_override_fonts/font = ExtResource("4_4ok3g")
 theme_override_font_sizes/font_size = 35
@@ -73,27 +74,34 @@ text = "Left
 metadata/_edit_group_ = true
 
 [node name="Left" type="Sprite2D" parent="Left"]
-position = Vector2(34.6772, -78)
+position = Vector2(62.789, -78.0001)
 rotation = 3.14159
-scale = Vector2(0.0589805, -0.0402482)
+scale = Vector2(0.0436899, -0.0402482)
 texture = ExtResource("5_8civ3")
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 282.0
-offset_top = 311.0
-offset_right = 605.0
-offset_bottom = 334.0
+offset_left = 21.0
+offset_top = 283.0
+offset_right = 1393.0
+offset_bottom = 726.0
 theme_override_colors/font_color = Color(0.137255, 0.0470588, 0.192157, 1)
 theme_override_fonts/font = ExtResource("4_4ok3g")
-text = "efbziefbzifbiezbfizebfeiz"
+theme_override_font_sizes/font_size = 20
+text = "Dans un avenir très proche, le Docteur Oldham fait une découverte 
+des plus terrifiantes. 
+L'énergie du noyau de la Terre diminue progressivement. 
+Ignoré par tous quant à la véracité de son récit, 
+le Dr. Oldham prend la décision audacieuse de s'aventurer dans l'Abysse.
+Le Dr. Oldham n'avait pas encore pris conscience de la tâche qui l'attendait."
+vertical_alignment = 3
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 0
-offset_left = 1253.0
-offset_top = 879.0
-offset_right = 1661.0
-offset_bottom = 947.0
+offset_left = 1293.0
+offset_top = 866.0
+offset_right = 1701.0
+offset_bottom = 934.0
 metadata/_edit_group_ = true
 
 [node name="Button" type="Button" parent="VBoxContainer"]
